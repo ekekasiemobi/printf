@@ -11,6 +11,7 @@ int print_string(va_list s)
 	int  i = 0;
 
 	my_string = va_arg(s, char *);
+
 	if (my_string == NULL)
 		my_string = "(null)";
 	while (my_string[i])
@@ -19,5 +20,4 @@ int print_string(va_list s)
 		i++;
 	}
 	return (i);
-
 }
