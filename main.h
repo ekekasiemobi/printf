@@ -5,9 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdarg.h>
-
-#define UNUSED(x) (void)(x)
-#define BUFF_SIZE 1024
+#include <unistd.h>
 
 int _putchar(char c);
 int _printf(const char *format, ...);
